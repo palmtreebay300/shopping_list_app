@@ -108,6 +108,7 @@ class ShoppingList:
             self._shared_users[user] = user_manager.get_user(user)
         else:
             raise ValueError("Lista zakupów jest już udostępniona temu użytkownikowi")
+
         
 def calculate_total_price(products):
     return sum(p.price for p in products if p.price is not None and p.status == "not bought")
