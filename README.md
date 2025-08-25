@@ -120,6 +120,7 @@ shopping_list_app/
 ├── ui_functions.py # This file contains all the functions responsible for the user interface and interaction. It provides functions to display menus, process user input, and handle different pages of the application, such as the login page, the user's main page, and the shopping list menu. It acts as the bridge between the user and the application's core logic.
 
 ├── user_management.py # This module manages users and their data. The Person class represents a user, storing their name, email, and lists they own or have access to. The UserManager handles adding and retrieving users from a dictionary, while the LoginManager facilitates user login and registration processes.
+
 ---
 
 ## 🔮 Future Improvements
